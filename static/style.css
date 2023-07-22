@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    min-height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+.container{
+    background-color: white;
+}
+.card-icon i{
+    color: grey;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+.card:hover{
+    border:1px solid white;
+    box-shadow: 5px 5px 15px 3px rgba(0,0, 0, 0.5);
+}
+
+.span{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.title{
+    text-align: center;
+    background-color: brown;
+}
+
+.bd{
+    background-color: chartreuse;
+}
